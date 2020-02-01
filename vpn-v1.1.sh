@@ -61,7 +61,7 @@ if [[ $(command -v apt-get) || $(command -v yum) ]] && [[ $(command -v systemctl
 else
 
 	echo -e " 
-	哈哈……这个 ${red}辣鸡脚本${none} 不支持你的系统。 ${yellow}(-_-) ${none}
+	哈哈……这个 ${red}脚本${none} 不支持你的系统。 ${yellow}(-_-) ${none}
 
 	备注: 仅支持 Ubuntu 16+ / Debian 8+ / CentOS 7+ 系统
 	" && exit 1
@@ -1057,7 +1057,7 @@ uninstall() {
 		echo
 	else
 		echo -e "
-		$red 大胸弟...你貌似毛有安装 V2Ray ....卸载个鸡鸡哦...$none
+		$red 你貌似毛有安装 V2Ray ....$none
 
 		备注...仅支持卸载使用我 (233v2.com) 提供的 V2Ray 一键安装脚本
 		" && exit 1
